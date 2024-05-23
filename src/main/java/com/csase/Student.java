@@ -60,4 +60,5 @@ public class Student {
         String dueDate = scanner.nextLine();
         planner.addAssignment(name, dueDate);
     }
+    getChoice();
 }
