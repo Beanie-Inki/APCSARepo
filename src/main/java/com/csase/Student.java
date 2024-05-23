@@ -13,9 +13,9 @@ public class Student {
     /*
      * Sets study planner and scanner
      */
-    public Student {
-        planner = new StudyPlanner();
-        scanner = new Scanner(System.in);
+    public class Student {
+        planner newPlanner = new StudyPlanner();
+        scanner newScanner = new Scanner(System.in);
     }
     
     /*
@@ -60,5 +60,5 @@ public class Student {
         String dueDate = scanner.nextLine();
         planner.addAssignment(name, dueDate);
     }
-    getChoice();
+    String getChoice();
 }
